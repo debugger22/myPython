@@ -57,6 +57,3 @@ class Rational:
 		else:
 			rem = maxm%minm
 			return self.getGCD(minm,rem)
-
-r1 = Rational(49,7)
-print r1
