@@ -42,15 +42,12 @@ class Rational:
 		while(True):
 			gcd = self.getGCD(self.num, self.den)
 			if gcd == self.num or gcd == self.den or gcd ==1:
+				self.num /= gcd
+				self.den /= gcd				
 				break
 			else:
-				if gcd==self.num:
-					self.num = gcd
-				elif gcd==self.den:
-					self.den = gcd
-				else:
-					self.num /= gcd
-					self.den /= gcd		
+				self.num /= gcd
+				self.den /= gcd		
 
 	def getGCD(self,a,b):
 		maxm = max(a,b)
@@ -60,3 +57,6 @@ class Rational:
 		else:
 			rem = maxm%minm
 			return self.getGCD(minm,rem)
+
+r1 = Rational(49,7)
+print r1
