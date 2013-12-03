@@ -19,3 +19,6 @@ How to use
 	15/4
 	17/3
 ```
+
+[![Bitdeli Badge](https://d2weczhvl823v0.cloudfront.net/mrsud/mypython/trend.png)](https://bitdeli.com/free "Bitdeli Badge")
+
