@@ -1,5 +1,7 @@
 <strong>Collection of my well documented small Python programs</strong>
 
+[![Bitdeli Badge](https://d2weczhvl823v0.cloudfront.net/mrsud/mypython/trend.png)](https://bitdeli.com/free "Bitdeli Badge")
+
 rational.py
 ===========
 How to use
@@ -19,6 +21,3 @@ How to use
 	15/4
 	17/3
 ```
-
-[![Bitdeli Badge](https://d2weczhvl823v0.cloudfront.net/mrsud/mypython/trend.png)](https://bitdeli.com/free "Bitdeli Badge")
-
